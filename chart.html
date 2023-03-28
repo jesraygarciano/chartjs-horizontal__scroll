@@ -108,12 +108,12 @@
       config
     );
     
-    const containerBody = document.querySelector('.containerBody');
-    const totalLabels = myChart.data.labels.length;
-    if(totalLabels > 7) {
-      const newWidth = 700 + ((totalLabels -7)* 30);
-      containerBody.style.width = `${newWidth}px`;
-    }
+      const containerBody = document.querySelector('.containerBody');
+      const totalLabels = myChart.data.labels.length;
+      if(totalLabels > 7) {
+        const newWidth = 700 + ((totalLabels -7)* 30);
+        containerBody.style.width = `${newWidth}px`;
+      }
 
     // Instantly assign Chart.js version
     const chartVersion = document.getElementById('chartVersion');
